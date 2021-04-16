@@ -99,6 +99,7 @@ h1 {
     background: #080324;
     color: #ffffff;
     height: 950px;
+    width: auto;
 }
 
 .h3-sobre {
@@ -114,7 +115,6 @@ h1 {
     color: #f9003d;
     font-family: 'Bebas Neue', cursive;
     font-size: 64px;
-    margin: 50px 0px;
 }
 
 .caixa-sobre {
@@ -216,7 +216,7 @@ h1 {
     background: #010010;
     border: 1px solid #340B65;
     display: flex;
-    /*justify-content: center;*/
+    justify-content: center;
     align-items: center;
 }
 
@@ -249,4 +249,120 @@ footer span {
     font-size: 18px;
     color: #ffffff;
 }
-a
+
+
+
+@media (max-width: 420px) {
+
+    .container {
+        width: 80vw;
+    }
+    
+    .container-banner  {
+        display: flex;
+        justify-content: center;
+        height: 600px;
+        width: auto;
+    }
+
+    .fundo-banner {
+        height: 100%;
+        width: auto;
+    }
+
+    .caixa-texto {
+        top: 145px;
+        left: 35px;
+        align-items: center;
+    }
+
+    h1 {
+        width: 360px;
+        font-size: 62px;
+    }
+
+    .hr_banner {
+        width: 360px;
+        margin-top: 10px;
+    }
+
+    .caixa-texto span {
+        font-size: 36px;
+        margin-top: 20px 0;
+    }
+
+    .mouse {
+        width: 45px;
+        margin-top: 30px;
+    }
+
+    .container-sobre {
+        height: 1550px;
+    }
+
+    .espacamento-sobre{
+        align-items: center;
+    }
+
+    .h2-sobre {
+        font-size: 52px;
+        margin: 50px 0;
+        font-weight: 400;
+    }
+
+    .caixa-sobre {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .img-caixa-sobre {
+        width: 400x;
+    }
+
+    .h3-sobre {
+        width: 380px;
+        font-size: 38px;
+        margin: 50px 0;
+        justify-content: center;
+    }
+
+    .caixa-sobre-texto p {
+        width: 400px;
+        text-align: justify;
+        margin-bottom: 50px;    
+    }
+
+    .caixa-sobre-texto {
+        margin-top: 50px;
+    }
+    .container-info {
+        flex-direction: column;
+        height: 600px;
+        justify-content: space-around;
+    }
+
+    .endereco h2 {
+        width: unset;
+    }
+
+    .endereco img {
+        position: unset;
+        margin-bottom: 45px;
+    }
+    
+    .caixa-endereco {
+        width: 300px;
+        padding: 40px;
+    }
+
+    .caixa-endereco p {
+        margin-left:unset ;
+    }
+
+    .endereco {
+        height: 800px;
+        position: unset;
+        justify-content: space-evenly;
+    }
+    
+}
